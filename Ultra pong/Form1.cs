@@ -69,7 +69,7 @@ namespace Ultra_pong
         public Form1()
         {
             InitializeComponent();
-            ball = new Rectangle(this.Width / 2, this.Height / 2 - 20, 20, 20);
+            ball = new Rectangle(this.Width / 2, this.Height / 2 - 20, 40, 40);
             ballDecel.Start();
             player1 = new Rectangle(this.Width / 2 -5, this.Height / 2 + 195, 90, 90);
             player1U = new Rectangle(this.Width / 2, this.Height / 2 + 195, 80, 20);
